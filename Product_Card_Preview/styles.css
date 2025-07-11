@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    box-sizing: inherit;
+    border-radius: 10px;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    margin: 100px;
+    position: center;
+}
+
+.card_1 img {
+    width: 58.2vh;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.card_2 {
+    display: flex;
+    padding: 25px;
+    height: 80vh;
+    width: 50vh;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.card_2 h3 {
+    color: hsl(228, 12%, 48%);
+}
+
+.card_2 h1 {
+    font-weight: bold;
+}
+
+.card_2 p {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    color: hsl(228, 12%, 48%);
+}
+
+.Bottom h2 {
+    color: hsl(158, 36%, 37%);
+    font-weight: bolder;
+}
+
+.Bottom h2 span{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 17px;
+    padding: 10px;
+}
+
+.Bottom button {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    border: none;
+}
+.Bottom button  p{
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+    width: 100px;
+}
